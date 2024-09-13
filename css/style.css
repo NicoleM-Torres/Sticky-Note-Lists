@@ -1,6 +1,14 @@
 body {
   font-family: "Exo 2", sans-serif;
   background-color: #f0f0f5;
+
+  background: repeating-linear-gradient(
+    #ffffff,
+    /* White base color */ #ffffff 28px,
+    /* Space between lines */ #dcdcdc 29px,
+    /* Line color */ #ff9696 30px /* Next line's space */
+  );
+  background-size: 100% 30px; /* Distance between lines */
   margin: 0;
   padding: 0;
 }
@@ -15,11 +23,11 @@ body {
 }
 
 .stickyNote {
-  background-color: #e76cff;
-  border-radius: 8px;
+  background-color: #fceb55;
+  border-radius: 0px 8px 8px 8px;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative;
+  /* position: relative; */
 }
 
 .stickyNote h4 {
@@ -28,6 +36,9 @@ body {
   margin-bottom: 15px;
 }
 
+#listNameInput {
+    background-color: #8bebfc;
+}
 .taskInput {
   border-radius: 0;
 }
@@ -43,7 +54,7 @@ body {
   margin-bottom: 5px;
   padding: 5px;
   border-radius: 4px;
-  background-color: #d29cff;
+  background-color: #effc7b;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
