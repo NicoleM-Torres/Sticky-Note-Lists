@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
         </div>
         <ul class="list-group taskList"></ul>
-      </div>
+      </div> 
     `;
 
     //ADD NEW LIST TO THE LIST CONTAINER
