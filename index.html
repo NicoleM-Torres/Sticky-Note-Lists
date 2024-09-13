@@ -8,13 +8,38 @@
       rel="stylesheet"
     />
     <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>To-Do List</title>
   </head>
   <body>
+    <div class="notebook container mt-5">
+      <h1 class="title text-center mb-4">To-Do List Notebook</h1>
 
+      <div class="newListContainer text-center mb-4">
+        <input
+          type="text"
+          id="listNameInput"
+          class="form-control d-inline w-50"
+          placeholder="New list"
+        />
+        <button class="btn btn-info ml-2" id="addListButton">Add List</button>
+      </div>
+      <!-- END OF newListContainer -->
+
+      <div class="listsContainer row" id="listsContainer"></div>
+      <!-- END OF listsContainer -->
+    </div>
+    <!-- END OF notebook CONTAINER -->
+
+    <!-- Bootstrap and jQuery JS -->
   </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
   <!-- Custom JS -->
-  <script src="app.js"></script>
+  <script src="./js/app.js"></script>
 </html>

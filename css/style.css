@@ -1,0 +1,61 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+.newListContainer {
+  margin-bottom: 30px;
+}
+
+.stickyNote {
+  background-color: #b316d3;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.stickyNote h4 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.taskInput {
+  border-radius: 0;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.listGroupItem {
+  border: none;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #d29cff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.taskCompleted {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.btn {
+  /* margin-top: 5px; */
+}
+
+.addTaskButton {
+  border-radius: 0;
+}
